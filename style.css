@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:gilroy;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155, 248,155);
+}
+
+#panel{
+    overflow: hidden;   /* ye karne s ekya hoga jo aapne apna ptop banaya hai uski border curved hojayegi */
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#ptop{
+    padding: 0px 30%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(72, 104, 72);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.elem h2{
+    font-weight: 500;
+}
+
+
+.box{
+    color: rgb(18, 119, 79);
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(72,104,72);
+    color: white;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(50, 75, 50);
+}
+
